@@ -16,7 +16,7 @@ public class QuickSort {
         }
     }
 
-    // partición estándar (Lomuto)
+    // función para partir el arreglo
     private int particion(int[] arr, int bajo, int alto) {
         int pivot = arr[alto];
         int i = bajo - 1;

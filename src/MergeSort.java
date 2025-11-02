@@ -1,6 +1,6 @@
 public class MergeSort {
 
-    // divide el arreglo y llama recursivamente
+    // divide el arreglo y llama repetivamente
     public void sort(int[] arr, int left, int right, boolean pasos, View view) {
         if (left < right) {
             int medio = (left + right) / 2;

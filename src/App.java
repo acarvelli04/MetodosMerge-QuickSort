@@ -14,7 +14,7 @@ public class App {
         // Menú de pasos: 1 sí, 2 no
         boolean mostrarPasos = view.showPasosMenuAndRead() == 1;
 
-        // Siempre trabajamos con una COPIA para no perder el original
+        // trabajamos con una COPIA para no perder el original
         int[] copia = numeros.clone();
 
         switch (opcionMetodo) {
